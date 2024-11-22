@@ -51,10 +51,10 @@ This repository has 2 folders and 1 file:
 
 1) Frontend - it has front-end app `event-management`.
 2) Backend - It has backend root folder `demo`.
-3) SQL File `event-managemnet-db-schema-sql-queries` - It contains all the queries starting from creating database, creating tables, creating triggers and inserting Admin records. Need to execute this sql file in order to create the database in local for this event management system.
+3) SQL File `event-management-db-schema-sql-queries.sql` - It contains all the queries starting from creating database, creating tables, creating triggers and inserting Admin records. Need to execute this sql file in order to create the database in local for this event management system.
 
 Steps to clone and run the application:
-1) Execute all the SQL Queries in the `event-managemnet-db-schema-sql-queries` file. This will create the db in your local.
+1) Execute all the SQL Queries in the `event-management-db-schema-sql-queries.sql` file. This will create the db in your local.
 2) Clone the back end folder `demo`:
    --> Need to change my database credentials to yours - Go to the application.properties file in the path **C:\Users\sound\Downloads\demo\demo\src\main\resources\application.properties** and change spring.datasource.username=your_username and spring.datasource.password=your_password
 3) Now our backend is raedy, start the backend server.
